@@ -1,0 +1,12 @@
+<center>
+
+<% @rooms.each do |room| %>
+  <%= room.suite %>
+  <%= room.rate %>
+  <%= room.hotel.name %>
+<% end %>
+
+<% @guests.each do |guest| %>
+  <%= guest.rooms.count %>
+<% end %>
+</center>

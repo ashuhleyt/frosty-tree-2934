@@ -1,0 +1,27 @@
+body {
+  font-family: 'Arial', sans-serif;
+  /* Fallback font */
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  font-family: 'Pacifico', cursive;
+  /* Apply the fun font to the header */
+  background-color: #3498db;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
